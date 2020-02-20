@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Paragraphes en bleu par défaut */ 
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */ 
+
+/* Mobile Styles */
+/* Sur uniquement les écrans, quand la largeur de la fenêtre fait au maximum 400px */
+@media screen and (max-width: 400px)
+{
+	body
+	{
+	background-color: pink; font-size: 1.2em;
+	} 
+}
+/* Tablet Styles */
+/* Sur uniquement les écrans, quand la largeur de la fenêtre est comprise entre 401px et 960px */
+@media screen and (min-width: 401px) and (max-width: 960px)
+{
+	body
+	{
+	background-color: orange; font-size: 1.2em;
+	} 
+}
+/* Desktop Styles */
+/* Sur uniquement les écrans, quand la largeur de la fenêtre fait au minimum 961px */
+@media screen and (min-width: 961px)
+{
+	body
+	{
+    background-color: blue; font-size: 1.2em;
+	} 
+}
