@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.page
+{
+background-color: rgb(92, 92, 245);
+border-bottom: -1px;
+border-top: 0;
+text-align: center;
+} 
+
+.section menu
+{
+background-color: red;
+} 
+
+.header
+{
+background-color: rgb(154, 209, 228);
+} 
+
+.content
+{
+background-color: rgb(197, 200, 201);
+} 
+
+.sign-up
+{
+background-color: rgb(210, 226, 255);
+} 
+
+.feature-1
+{
+background-color: rgb(255, 168, 68);
+} 
+
+.feature-2
+{
+background-color: rgb(228, 51, 51);
+} 
+
+.feature-3
+{
+background-color: rgb(175, 134, 223);
+} 
+
+
+@media screen and (min-width: 401px) and (max-width: 960px)
+{
+	.sign-up {
+        width: 50%;
+        float: left;
+    }
+    .feature-1 {
+        width: 50%;
+        float: right;
+    }
+    .feature-2 {
+        width: 50%;
+        float: left;
+    }
+    .feature-3 {
+        width: 50%;
+        float: right;
+    }
+}
+@media screen and (min-width: 961px)
+{
+	body
+	{
+    background-color: blue; font-size: 1.2em;
+	} 
+}
