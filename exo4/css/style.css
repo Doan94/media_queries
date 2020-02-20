@@ -65,8 +65,33 @@ background-color: rgb(175, 134, 223);
 }
 @media screen and (min-width: 961px)
 {
-	body
-	{
-    background-color: blue; font-size: 1.2em;
-	} 
+    .feature-1 {
+        width: 33.33%;
+        float: left;
+    }
+    .feature-2 {
+        width: 33.33%;
+        float: left;
+    }
+    .feature-3 {
+        width: 33.33%;
+        float: left;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .page {
+        display: flex;
+        flex-direction: column;
+    }
+    .page :nth-child(1) {order: 2;}
+    .page :nth-child(2) {order: 5;}
+    .page :nth-child(3) {order: 4;}
+    .page :nth-child(4) {order: 3;}
+    .page :nth-child(5) {order: 6;}
+    .page :nth-child(6) {order: 1;}
 }
